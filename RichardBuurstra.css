@@ -67,7 +67,7 @@ button:hover {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 200px;    
+    height: 100px;    
 }
 .container-overmij {
     
@@ -78,28 +78,32 @@ button:hover {
 }
 .FotoRichard {
     width: 250px;
-    height: 340px;
-    border-radius: 40px;
+    height: 250px;
+    border-radius: 50%;
     opacity: 0.8;
+    
    
 }
 .overmij {
     width: 150px;
     height: 150px;
-    background: lightsalmon;
+    background: rgb(245, 187, 165);
     margin: 5px;
-    border-radius: 500px;
-    
-    
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+   
+        
 }
 .h2 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 300;
     letter-spacing: 3px;
+    padding-left: 50px;
 }
 .testdiv{
-    display: flex;
-    align-items: center;
+    
     
 }.Resume {
     
